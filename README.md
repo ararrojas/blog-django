@@ -35,8 +35,8 @@ Ensure you have the following installed on your system:
    git clone git@github.com:ararrojas/blog-django.git
    cd blog-django
    ```
+   
 2. Create a virtual environment (optional but recommended):
-
 ```bash
 Copy code
 python3 -m venv venv
