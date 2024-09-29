@@ -37,35 +37,35 @@ Ensure you have the following installed on your system:
    ```
    
 2. Create a virtual environment (optional but recommended):
-```bash
-Copy code
-python3 -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-```
+   ```bash
+   Copy code
+   python3 -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   ```
 
 3. Install the required packages:
-```bash
-Copy code
-pip install -r requirements.txt
-```
+   ```bash
+   Copy code
+   pip install -r requirements.txt
+   ```
 
 4. Set up the database:
-```bash
-Copy code
-python manage.py migrate
-```
+   ```bash
+   Copy code
+   python manage.py migrate
+   ```
 
 5. Create a superuser (for accessing the Django admin panel):
-```bash
-Copy code
-python manage.py createsuperuser
-```
+   ```bash
+   Copy code
+   python manage.py createsuperuser
+   ```
 
 6. Run the development server:
-```bash
-Copy code
-python manage.py runserver
-```
+   ```bash
+   Copy code
+   python manage.py runserver
+   ```
 
 7. Access the application at http://127.0.0.1:8000/ and the admin panel at http://127.0.0.1:8000/admin.
 
